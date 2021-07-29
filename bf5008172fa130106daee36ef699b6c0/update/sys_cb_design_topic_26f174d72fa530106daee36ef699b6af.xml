@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="View Open NeedIt Records">6af174d72fa530106daee36ef699b6ac</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a94a1d44c40a495c9f28ffc1f7a8c51b","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a94a1d44c40a495c9f28ffc1f7a8c51b"}],"goals":[{"name":"primary","trigger_id":"a94a1d44c40a495c9f28ffc1f7a8c51b","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"f72a42ba5263456a805af5816502fae1","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"7f6823ce56d9492782e5f0b3b00b162c","name":"End"}],"edges":[{"type":"Edge","source_node_id":"f72a42ba5263456a805af5816502fae1","target_node_id":"7f6823ce56d9492782e5f0b3b00b162c","id":"82e53e9d04e341b9bfa5e8f6ea17e826"}],"id":"primary"}],"script_variables":[{"type":"String","name":"LiveAgent_application","value":{"type":"String","mode":"string"},"id":"10cef2852a5143abab1212eb3818b8bb","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"bf5008172fa130106daee36ef699b6c0","domain":"global","topic_type":"STANDARD","channels":[],"id":"e921845f2fa130106daee36ef699b6c1","name":"_PRVW__56f13c975da530101bb2a9c49ddbe75f","key_phrases":["View Open NeedIt Records","NeedIt Request","need something"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_categories":[{"name":null,"visible":false,"sysId":"f480885f2fa130106daee36ef699b60f"}],"triggerable_by_notification":false,"auto_resolution_enabled":false,"library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>e921845f2fa130106daee36ef699b6c1</design_topic_id>
+        <name>_PRVW__56f13c975da530101bb2a9c49ddbe75f</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-29 19:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>26f174d72fa530106daee36ef699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_659629_needit_vi">bf5008172fa130106daee36ef699b6c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">bf5008172fa130106daee36ef699b6c0</sys_scope>
+        <sys_update_name>sys_cb_design_topic_26f174d72fa530106daee36ef699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-29 19:04:42</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
